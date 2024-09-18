@@ -1,11 +1,9 @@
 @import 'fonts';
 @import 'utils';
 
-@media (max-width: $tablet) {
-  body {
-    .menu-open & {
-      overflow: hidden;
-    }
+body {
+  .menu-open & {
+    overflow: hidden;
   }
 }
 
